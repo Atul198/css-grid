@@ -1,0 +1,209 @@
+@font-face {
+    font-family: 'Hanken Grotesk';
+    src: url(./assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
+}
+
+body{
+    font-family: 'Hanken Grotesk', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.maincontainer{
+    margin: 10rem auto;
+    height: 50%;
+    width: 50%;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.sec1{
+    width: 240px;
+    border-radius: 44px;
+    background: #5e5bf5;
+    padding: 1rem 1rem 2rem 1rem;
+    background: #3d3df5;
+    box-shadow: inset -20px -20px 40px #3434d3,
+            inset 20px 20px 40px #4646ff;
+}
+
+.container .sec1 .result{
+    font-size: 18px;
+    font-weight: 600;
+    color: #ccccd1;
+    padding: 10px 0;
+    margin: 5px 0 15px 0;
+}
+
+.container .sec1 .result-number{
+    border-radius: 50%;
+    padding: 1.5rem;
+    margin: 0 auto;
+    width: 5rem;
+    font-size: 15px;
+    font-weight: 600;
+    color: #b9b9cc;
+    border-radius: 150px;
+    background: #3d3df5;
+    box-shadow: inset 18px 18px 45px #5454ff,
+            inset -18px -18px 45px #26269a;
+}
+
+.container .sec1 .result-number label{
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.container .sec1 h2{
+    font-size: 25px;
+    font-weight: 600;
+    color: #fff;
+    margin: 30px 0 15px 0;
+}
+
+.container .sec1 .review{
+    font-size: 13px;
+    font-weight: 500;
+    padding: 0 30px;
+    color: #ccccd1;
+}
+
+.container .sec2{
+    margin: 12px 0 0 0;
+}
+
+.container .sec2 h3{
+    padding: 0 120px 0 0;
+    font-size: 18px;
+}
+
+.container .sec2 .itemlist{
+    list-style: none;
+    padding: 0 0 0 20px;
+}
+
+.container .sec2 .itemlist .list{
+    padding: 13px; 
+    border-radius: 8px;
+    margin: 8px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.container .sec2 .itemlist .list img{
+    float: left;
+    padding-left: 10px;
+}
+
+.container .sec2 .itemlist .list .text{
+    padding-right: 15px;
+}
+
+.container .sec2 .itemlist .list .marksbold,.marks-fade{
+    float: right;
+    padding-left: 10px;
+}
+
+.container .sec2 .itemlist .red{
+    background-color: #ffe4e4;
+}
+
+.container .sec2 .itemlist .yellow{
+    background-color: #ffffe4;
+}
+
+.container .sec2 .itemlist .green{
+    background-color: #e4ffe4;
+}
+
+.container .sec2 .itemlist .blue{
+    background-color: #e3e3ff;
+}
+
+.container .sec2 .itemlist .marksbold{
+    font-size: 15px;
+    font-weight: 700;    
+}
+
+.container .sec2 .itemlist .marks-fade{
+    font-size: 15px;
+    color: #a6a6a6;    
+}
+
+.container .sec2 .itemlist button{
+    padding: 15px; 
+    border-radius: 25px;
+    margin: 10px;
+    width: 225px;
+    font-size: 13px;
+    font-weight: 600;
+    border-style: none;
+    background-color: #353544 ;
+    color: #fff;
+}
+
+.container .sec2 .itemlist button:hover{
+    background-color    : #3d3df5;
+    cursor: pointer;
+}
+
+
+
+@media (max-width: 768px) {
+    /* CSS styles for screens with a maximum width of 768 pixels */
+    body{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .maincontainer{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    .container{
+        display: block;
+    }
+
+    .container .sec1{
+        width: fit-content;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
+
+    .container .sec1 .review{
+        padding: 0 50px 0 50px;
+    }
+
+    .container .sec2 .itemlist{
+        margin:  0;
+        padding: 0 30px 0 30px;
+    }
+
+    .container .sec2 .itemlist .list{
+        margin:  15px 20px 15px 20px;
+    }
+
+    .container .sec2 .itemlist button:hover{
+    background-color    : #3d3df5;
+    cursor: pointer;
+}
+
+    .container .sec2 .itemlist .list .text{
+        padding: 0 50px 0 0;
+    }
+
+
+}  
+
+
+
+
+
+
